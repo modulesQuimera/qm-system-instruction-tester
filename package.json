@@ -1,0 +1,25 @@
+{
+  "name": "qm-system-instruction-tester",
+  "version": "1.0.1",
+  "description": "",
+  "main": "tester.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesQuimera/qm-system-instruction-tester.git"
+  },
+  "keywords": ["quimera","JIG"],
+  "author": "HUB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesQuimera/qm-system-instruction-tester/issues"
+  },
+  "homepage": "https://github.com/modulesQuimera/qm-system-instruction-tester#readme",
+  "node-red" : {
+    "nodes": {
+        "tester": "tester.js"
+    }
+  }
+}
